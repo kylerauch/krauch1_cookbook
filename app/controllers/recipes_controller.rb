@@ -1,7 +1,7 @@
 class RecipesController < ApplicationController
   before_action :set_recipe, only: [:show, :edit, :update, :destroy]
   before_action :get_categories, only: [:new, :edit, :create, :update]
-  #before_action :authenticate, :except => [:index, :show]
+  before_action :authenticate, :except => [:index, :show]
 
   # GET /recipes
   # GET /recipes.json

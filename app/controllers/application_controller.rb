@@ -12,6 +12,14 @@ class ApplicationController < ActionController::Base
 #  else
 #   request_http_basic_authentication
 # end
+
+  private
+   def authenticate
+    authenticate_or_request_with_http_basic do |user_name, password|
+    session[:logged_in] = (user_name == 'admin' && password == 'password')
+    end
+   end
+
   
   def logged_in?
     session[:logged_in]

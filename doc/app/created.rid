@@ -1,0 +1,16 @@
+Sun, 14 Feb 2016 21:00:13 +0000
+README.rdoc	Thu, 11 Feb 2016 22:54:35 +0000
+app/controllers/admin_controller_controller.rb	Sun, 14 Feb 2016 19:05:09 +0000
+app/controllers/application_controller.rb	Sun, 14 Feb 2016 18:48:50 +0000
+app/controllers/category_controller.rb	Fri, 12 Feb 2016 20:12:56 +0000
+app/controllers/home_controller.rb	Sun, 14 Feb 2016 20:33:39 +0000
+app/controllers/recipes_controller.rb	Sun, 14 Feb 2016 19:56:07 +0000
+app/helpers/admin_controller_helper.rb	Sun, 14 Feb 2016 18:50:02 +0000
+app/helpers/application_helper.rb	Thu, 11 Feb 2016 22:54:35 +0000
+app/helpers/category_helper.rb	Fri, 12 Feb 2016 20:11:55 +0000
+app/helpers/home_helper.rb	Thu, 11 Feb 2016 22:59:07 +0000
+app/helpers/recipes_helper.rb	Thu, 11 Feb 2016 23:20:18 +0000
+app/models/calorie.rb	Fri, 12 Feb 2016 02:50:31 +0000
+app/models/category.rb	Fri, 12 Feb 2016 03:06:13 +0000
+app/models/recipe.rb	Sun, 14 Feb 2016 19:51:10 +0000
+app/models/user.rb	Sat, 13 Feb 2016 00:56:41 +0000
