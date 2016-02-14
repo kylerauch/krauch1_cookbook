@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: "Beverages"
+
+two:
+  name: "Deserts"
+  
+three: 
+  name: "Appetizers"
+
+four:
+  name: "Entrees"
+  
+five:
+  name: "Breakfast"
+  
+six: 
+  name: "Sandwiches"
+  
+
